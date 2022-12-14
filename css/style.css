@@ -20,6 +20,7 @@
 
 .item{
     display: none;
+    position: relative;
 }
 
 .item-slider, .item, img{
@@ -115,4 +116,14 @@
     background-color: darkorange;
     color: white;
 }
+
+
+.desc{
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+    color: white;
+    text-align: right;
+}
+
 

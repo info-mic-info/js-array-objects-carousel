@@ -2,33 +2,33 @@
 
 const imagesArray = [
     {
-        image: "01.webp",
+        image: `01.webp`,
         title: `spiderman`,
-        description: `description1`
+        description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quos quisquam, aut, incidunt sed minus voluptates voluptate nobis suscipit illum placeat cum maiores? Officiis error, eligendi earum numquam labore nisi!`
 
     },
     {
         image: "02.webp",
-        title: `prova2`,
-        description: `description2`
+        title: `spiderman`,
+        description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quos quisquam, aut, incidunt sed minus voluptates voluptate nobis suscipit illum placeat cum maiores? Officiis error, eligendi earum numquam labore nisi!`
 
     },
     {
         image: "03.webp",
-        title: `prova3`,
-        description: `description3`
+        title: `spiderman`,
+        description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quos quisquam, aut, incidunt sed minus voluptates voluptate nobis suscipit illum placeat cum maiores? Officiis error, eligendi earum numquam labore nisi!`
 
     },
     {
         image: "04.webp",
-        title: `prova4`,
-        description: `description4`
+        title: `spiderman`,
+        description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quos quisquam, aut, incidunt sed minus voluptates voluptate nobis suscipit illum placeat cum maiores? Officiis error, eligendi earum numquam labore nisi!`
 
     },
     {
         image: "05.webp",
-        title: `prova5`,
-        description: `description5`
+        title: `spiderman`,
+        description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quos quisquam, aut, incidunt sed minus voluptates voluptate nobis suscipit illum placeat cum maiores? Officiis error, eligendi earum numquam labore nisi!`
 
     }
 ]
@@ -65,13 +65,13 @@ function nextSlide() {
 let itemsContent = '';
 
 imagesArray.forEach((elem) => {
-    itemsContent += <div class="item">
-    <img src="${elem.image}">
-    <div class="desc text-white">
+    itemsContent += `<div class="item">
+    <img src="./img/${elem.image}">
+    <div class="desc">
     <h2>${elem.title}</h2>
     <p>${elem.description}</p>
     </div>
-    </div>
+    </div>`
 });
 
 // for (let i = 0; i < imagesArray.length; i++) {
